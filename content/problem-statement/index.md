@@ -8,28 +8,46 @@ share: false
 
 ## Introduction
 
-This page serves as a **Problem and Requirements Document** for the project.  It should be no more than 5 pages long.  It should be done after or in combination with the Data Assessment document.  It should have an initial release after no more than four weeks into the project, and can serve as an interim project report.  It can be refined as the project progresses and the project is better understood.  
+With advancements in data collection technology, there are a lot of opportunities for good and for bad. There could be good in the form of improved technologies made to help people. However, this technology could be used to gather sensitive information on people and hurt them with it in the form of data leaks, predatory genealogy practices, and identity theft. We are faced with a difficult question: in what ways can we help to ensure that new technologies are being used in their good capacities and not being used in their bad capacities?
 
 ## Motivation
 
-The project advisor should have provided the general context for the project, the kinds of problems that could be addressed using the data available, and the overall motivation for working in this area.  
+- Wearable healthcare devices can collect large amounts of data that has the potential to provide valuable insights
+- Advancements in AI tech can improve usage of wearables data for health
+- Current technologies do not take good advantage of wearables data, sometimes due to privacy and ethical concerns 
+- The goal is to recommend innovative ways to build healthcare devices with AI systems, with ethical considerations in mind. 
+
 
 ## Problem for the Semester
 
-While the motivation section typically describes the long-term reasons to tackle this project, the problem section should focus on the specific problem and goals selected for the current semester.  It should be a realistic goal that can be accomplished with the resources available, and this typically means the data, the people, the time available.  It is useful to be specific about the initial questions that will be addressed first, because those typically lead to a better understanding of what other questions could be tackled.  This will help establish a clear scope for the project that will give everyone reasonable confidence of what the team can achieve.  It is also very useful to describe what the team is not going to tackle and has agreed to leave for future work.
+There are missed opportunities for wearable devices that can provide constant monitoring of patients.
+- Data collected by personal wearable devices are not always in an accessible or useful format to aid diagnosis for medical professionals and doctors. 
+- With the increase of health data collection ensuring that laws, regulation, and ethics protect the privacy of individuals while still utilizing the data collected effectively is important. 
+
 
 ## State of the Art
 
-Provide a brief summary or survey of the possible approaches, advances, or tools that are currently available that could potentially be used to address the problem.  
+In this section, we provide an overview of the state of the art organized into three categories:
+1.**Sensors and data collection**, covering the wearable devices and other mechanisms that allow individuals to collect personal data about their health.
+2. **Ethics, privacy, and risks,** addressing the ethical issues that arise from the collection of personal health data, the privacy provisions that must be addressed, and the risks that systems that contain personal health data must take into account.
+3.**Data management systems**, describing how data is transmitted, organized, stored, managed, analyzed, and delivered to users, healthcare providers, and other stakeholders.
+
+We address each of these topics in the next subsections.
 
 ## Design and Approach
 
-Discuss the initial approach that the team will follow.  This may include the key idea that the team believes could potentially work, and a high-level description of 1) the system to be built and a diagram of its components, 2) the inputs to the system and the task that it will do with that data, and 3) the outputs to be generated. Discuss also a baseline system that is simple and can be quickly built to address the problem in a reasonable way even if it has poor performance, so that you can clearly show improvements.  Discuss also how those improvements will be demonstrated through metrics or other means.
+Part I: Analysis of 3 aspects of the state of the art:
+**Sensors and Data Collection**
+Surveying existing smart technologies and their capabilities
+Measurement and collection of data
+Evaluating the potential to facilitate illness diagnosis
 
-## Use Case Scenario
+**Ethics and Privacy**
+Understanding privacy laws surrounding data acquisition and usage
+Research on the idea of privacy and its recent roles in society with respect to laws and regulations, human rights, and individual perception.
+From an ethical standpoint, how should AI be implemented moving forward?
 
-Show with a use case scenario with examples of who the ultimate users could be, what the system that you plan to build for the semester will do in that scenario.  Provide a mockup of the outputs for the use case that you propose.
+**Data Systems**
+Understanding how stakeholders manage and analyze collected data and what they hope their money goes towards
 
-## Desired Outcomes and Benefits
 
-Connect back the system that you will be building with the initial motivation for the work, and what additional future work might be needed in order for the system to provide benefits to its users.
